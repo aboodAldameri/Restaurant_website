@@ -1,6 +1,6 @@
 body {
-    background: linear-gradient(45deg, #dfdfdf, #ff990063); 
-    height: 100vh;
+    background: linear-gradient(45deg, #ffffff, #e5c2ff); 
+    height: 165vh;
     margin: 0;
 }
 
@@ -33,7 +33,6 @@ nav > a:hover{
     flex-wrap: wrap;
     gap: 100px;
     margin: 1rem;
-    /* background-color: rgb(255, 208, 0); */
     border-radius: 1rem;
 }
 
