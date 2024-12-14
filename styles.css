@@ -19,23 +19,21 @@ nav > a:hover{
     color: gold;
 }
 
-
 #photoLogo{
     border-radius: 1000px;
     width:55px;
     height:55px;
 }
-
-.containar{
+.containar {
     display: flex;
     align-items: center;  
     justify-content: space-around;
     flex-wrap: wrap;
-    gap: 100px;
+    gap: 2rem; 
     margin: 1rem;
+    padding: 1rem;
     border-radius: 1rem;
 }
-
 .carousel-inner img {
     max-height: 500px; 
     object-fit: cover; 
@@ -47,18 +45,19 @@ nav > a:hover{
 }
 
 #discription{
+    width: 70%;
+    height: 15%;
     display: flex;
     flex-direction: row;
-    text-align: center;
     margin: 3%;
-    gap: 2rem;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;  
     border-style: solid;
-    padding: 2%;
+    padding: 1%;
     border-color: rgb(176, 173, 173);
     border-radius: 2%;
     border-width: 1px; ;
+    
 }
 .menu{
     display: flex; 
@@ -70,6 +69,8 @@ nav > a:hover{
 .photoMenu{
     width: 150px;;
     height: 200px ;
+    cursor: pointer;
+
 }
 .cartMenu{
     border: 2px solid rgb(162, 155, 155);
