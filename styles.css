@@ -61,3 +61,37 @@ nav > a:hover{
     border-radius: 2%;
     border-width: 1px; ;
 }
+.menu{
+    display: flex; 
+    justify-content:center;  
+    flex-wrap: wrap;  
+    gap: 50px;  
+    margin: 10px;
+}
+.photoMenu{
+    width: 150px;;
+    hight: 200px ;
+}
+.cartMenu{
+    border: 2px solid rgb(162, 155, 155);
+    border-radius: 10px;
+    text-align: center;
+    padding:10px ;
+
+}
+.btnCart{
+    background-color: rgb(249, 166, 1);
+    font-style: normal;
+    font-size: 15px;
+    border-color: white;
+    color: white;
+    border-radius: 100px;
+    padding: 6px;
+}
+.footer{
+    text-align: center;
+}
+.titleMeal{
+    font-size: large;
+    font-family: cursive;
+}
