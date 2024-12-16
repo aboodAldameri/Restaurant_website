@@ -7,3 +7,5 @@ function addNew(photoId) {
     const mealPhoto = document.getElementById(photoId);
     mealPhoto.src = "./Photo/photo19.png";
   }
+
+

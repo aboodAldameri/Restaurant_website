@@ -1,7 +1,10 @@
 body {
-    background: linear-gradient(45deg, #ffffff, #e5c2ff); 
-    height: 165vh;
+    background: linear-gradient(45deg, #eeeeee, #e5c2ff); 
+    height: auto;
     margin: 0;
+    justify-content: center; 
+    align-items: center;
+
 }
 
 .pages{
@@ -40,44 +43,49 @@ nav > a:hover{
 }
 
 .carousel {
-    max-width: 95%; 
+    max-width: 100%; 
     margin: auto; 
 }
 
 #discription{
-    width: 70%;
-    height: 15%;
+    width: 50%;
+    height: 5%;
     display: flex;
     flex-direction: row;
-    margin: 3%;
-    justify-content: space-between;
+    margin: 2%;
+    justify-content: center;
     align-items: center;  
     border-style: solid;
-    padding: 1%;
-    border-color: rgb(176, 173, 173);
-    border-radius: 2%;
-    border-width: 1px; ;
+    border-color: rgb(212, 212, 212);
+    border-radius: 5%;
+    border-width: 1% ;
+    gap: 2rem ;
     
 }
 .menu{
     display: flex; 
     justify-content:center;  
     flex-wrap: wrap;  
-    gap: 50px;  
-    margin: 10px;
+    gap: 2rem ;  
+    margin: 1rem ;
 }
 .photoMenu{
-    width: 150px;;
-    height: 200px ;
-    cursor: pointer;
-
+    width: 20rem;;
+    height: 15rem ;
+    border-radius: 1rem;
+    margin-bottom: 1%;
 }
 .cartMenu{
-    border: 2px solid rgb(162, 155, 155);
-    border-radius: 10px;
+    border: 2px solid rgb(191, 191, 191);
+    border-radius: 1rem;
     text-align: center;
-    padding:10px ;
+    padding-bottom: 3% ;
+    background-color: rgb(233, 202, 255);
 
+}
+.cartMenu:hover{
+    font-size: large;
+    color: rgb(0, 0, 0);
 }
 .btnCart{
     background-color: rgb(249, 166, 1);
@@ -86,7 +94,6 @@ nav > a:hover{
     border-color: white;
     color: white;
     border-radius: 100px;
-    padding: 6px;
 }
 .footer{
     text-align: center;
@@ -94,4 +101,13 @@ nav > a:hover{
 .titleMeal{
     font-size: large;
     font-family: cursive;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1%;
+    background-color: rgb(255, 255, 255);
 }
